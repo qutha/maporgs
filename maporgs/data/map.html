@@ -1,0 +1,1080 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_839b29c84c734f9f3abbe18d9bfb4d04 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_839b29c84c734f9f3abbe18d9bfb4d04" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_839b29c84c734f9f3abbe18d9bfb4d04 = L.map(
+                "map_839b29c84c734f9f3abbe18d9bfb4d04",
+                {
+                    center: [54.93888409015152, 46.983429504223864],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 5,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_517fb09060fd02af18420bedb61063e0 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_517fb09060fd02af18420bedb61063e0.addTo(map_839b29c84c734f9f3abbe18d9bfb4d04);
+        
+    
+            var circle_marker_db6bd5425ee160135a15994781d0e032 = L.circleMarker(
+                [53.3410272, 83.6492962],
+                {"bubblingMouseEvents": true, "color": "#FF0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FF0000", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(map_839b29c84c734f9f3abbe18d9bfb4d04);
+        
+    
+        var popup_13d7b12cc3927ea38630c54aef3abc38 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_573e53454af3f58db8f6eef8dd0ca307 = $(`<div id="html_573e53454af3f58db8f6eef8dd0ca307" style="width: 100.0%; height: 100.0%;">Барнаул Кол-во организаций: 1 Средний рейтинг: 5.0</div>`)[0];
+                popup_13d7b12cc3927ea38630c54aef3abc38.setContent(html_573e53454af3f58db8f6eef8dd0ca307);
+            
+        
+
+        circle_marker_db6bd5425ee160135a15994781d0e032.bindPopup(popup_13d7b12cc3927ea38630c54aef3abc38)
+        ;
+
+        
+    
+    
+        var popup_21888979f8809a587797a2405b7da442 = L.popup({"maxWidth": 200});
+
+        
+            
+                var html_f99a24fad34cbfbbb76214203b8a2cce = $(`<div id="html_f99a24fad34cbfbbb76214203b8a2cce" style="width: 100.0%; height: 100.0%;">Барнаул Кол-во организаций: 1 Средний рейтинг: 5.0</div>`)[0];
+                popup_21888979f8809a587797a2405b7da442.setContent(html_f99a24fad34cbfbbb76214203b8a2cce);
+            
+        
+
+        circle_marker_db6bd5425ee160135a15994781d0e032.bindPopup(popup_21888979f8809a587797a2405b7da442)
+        ;
+
+        
+    
+    
+            var circle_marker_88e27c3dc4de9674a545c708e39ae86f = L.circleMarker(
+                [47.13192375, 39.74494682063162],
+                {"bubblingMouseEvents": true, "color": "#FF0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FF0000", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2, "stroke": true, "weight": 3}
+            ).addTo(map_839b29c84c734f9f3abbe18d9bfb4d04);
+        
+    
+        var popup_8a5435a82e705b342d0aab8fa6f440d4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2c734ec030e1623566971a3d6f221e66 = $(`<div id="html_2c734ec030e1623566971a3d6f221e66" style="width: 100.0%; height: 100.0%;">Батайск Кол-во организаций: 2 Средний рейтинг: 3.0</div>`)[0];
+                popup_8a5435a82e705b342d0aab8fa6f440d4.setContent(html_2c734ec030e1623566971a3d6f221e66);
+            
+        
+
+        circle_marker_88e27c3dc4de9674a545c708e39ae86f.bindPopup(popup_8a5435a82e705b342d0aab8fa6f440d4)
+        ;
+
+        
+    
+    
+        var popup_26f41a73d50eeb426c694eb18a1691c9 = L.popup({"maxWidth": 200});
+
+        
+            
+                var html_96753c4516b45d77d56edb9e1d4d05cc = $(`<div id="html_96753c4516b45d77d56edb9e1d4d05cc" style="width: 100.0%; height: 100.0%;">Батайск Кол-во организаций: 2 Средний рейтинг: 3.0</div>`)[0];
+                popup_26f41a73d50eeb426c694eb18a1691c9.setContent(html_96753c4516b45d77d56edb9e1d4d05cc);
+            
+        
+
+        circle_marker_88e27c3dc4de9674a545c708e39ae86f.bindPopup(popup_26f41a73d50eeb426c694eb18a1691c9)
+        ;
+
+        
+    
+    
+            var circle_marker_50c0899b821ba98f2a99e8292ca151fa = L.circleMarker(
+                [48.7891901, 132.92907866551894],
+                {"bubblingMouseEvents": true, "color": "#FF0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FF0000", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(map_839b29c84c734f9f3abbe18d9bfb4d04);
+        
+    
+        var popup_e7120be89129e16c86fc42865bd91425 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e8ec1ed6db9088dade4c3a3edcb675a3 = $(`<div id="html_e8ec1ed6db9088dade4c3a3edcb675a3" style="width: 100.0%; height: 100.0%;">Биробиджан Кол-во организаций: 1 Средний рейтинг: 5.0</div>`)[0];
+                popup_e7120be89129e16c86fc42865bd91425.setContent(html_e8ec1ed6db9088dade4c3a3edcb675a3);
+            
+        
+
+        circle_marker_50c0899b821ba98f2a99e8292ca151fa.bindPopup(popup_e7120be89129e16c86fc42865bd91425)
+        ;
+
+        
+    
+    
+        var popup_d61578de04316350121f3d836566cb89 = L.popup({"maxWidth": 200});
+
+        
+            
+                var html_5bdff559b7a0739435eb0a1767641be7 = $(`<div id="html_5bdff559b7a0739435eb0a1767641be7" style="width: 100.0%; height: 100.0%;">Биробиджан Кол-во организаций: 1 Средний рейтинг: 5.0</div>`)[0];
+                popup_d61578de04316350121f3d836566cb89.setContent(html_5bdff559b7a0739435eb0a1767641be7);
+            
+        
+
+        circle_marker_50c0899b821ba98f2a99e8292ca151fa.bindPopup(popup_d61578de04316350121f3d836566cb89)
+        ;
+
+        
+    
+    
+            var circle_marker_9f6c41d4b91008c10a849e3f696c886c = L.circleMarker(
+                [53.264856449999996, 34.31904564505636],
+                {"bubblingMouseEvents": true, "color": "#FF0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FF0000", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(map_839b29c84c734f9f3abbe18d9bfb4d04);
+        
+    
+        var popup_958bade6d85d0d294c444e347812e128 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_57914f1f975b8c77fb4ae9579fbed676 = $(`<div id="html_57914f1f975b8c77fb4ae9579fbed676" style="width: 100.0%; height: 100.0%;">Брянск Кол-во организаций: 1 Средний рейтинг: 5.0</div>`)[0];
+                popup_958bade6d85d0d294c444e347812e128.setContent(html_57914f1f975b8c77fb4ae9579fbed676);
+            
+        
+
+        circle_marker_9f6c41d4b91008c10a849e3f696c886c.bindPopup(popup_958bade6d85d0d294c444e347812e128)
+        ;
+
+        
+    
+    
+        var popup_ad2d02ca5c8e2ce4d46a093735bc14df = L.popup({"maxWidth": 200});
+
+        
+            
+                var html_346a1ffcb5a488eda8b04fddb91e42c5 = $(`<div id="html_346a1ffcb5a488eda8b04fddb91e42c5" style="width: 100.0%; height: 100.0%;">Брянск Кол-во организаций: 1 Средний рейтинг: 5.0</div>`)[0];
+                popup_ad2d02ca5c8e2ce4d46a093735bc14df.setContent(html_346a1ffcb5a488eda8b04fddb91e42c5);
+            
+        
+
+        circle_marker_9f6c41d4b91008c10a849e3f696c886c.bindPopup(popup_ad2d02ca5c8e2ce4d46a093735bc14df)
+        ;
+
+        
+    
+    
+            var circle_marker_f00de55054d5d994413f0892a8f80a77 = L.circleMarker(
+                [48.6969375, 44.502115],
+                {"bubblingMouseEvents": true, "color": "#FF0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FF0000", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(map_839b29c84c734f9f3abbe18d9bfb4d04);
+        
+    
+        var popup_469111803406cf70b6cf82b153a4a93c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_55f14c33c13275e9f346411a9df15a17 = $(`<div id="html_55f14c33c13275e9f346411a9df15a17" style="width: 100.0%; height: 100.0%;">Волгоград Кол-во организаций: 1 Средний рейтинг: 3.0</div>`)[0];
+                popup_469111803406cf70b6cf82b153a4a93c.setContent(html_55f14c33c13275e9f346411a9df15a17);
+            
+        
+
+        circle_marker_f00de55054d5d994413f0892a8f80a77.bindPopup(popup_469111803406cf70b6cf82b153a4a93c)
+        ;
+
+        
+    
+    
+        var popup_f74d344323bb836757b3ee6872d10931 = L.popup({"maxWidth": 200});
+
+        
+            
+                var html_8dcdabcfe1bb8a9b2f256dcdd65f1548 = $(`<div id="html_8dcdabcfe1bb8a9b2f256dcdd65f1548" style="width: 100.0%; height: 100.0%;">Волгоград Кол-во организаций: 1 Средний рейтинг: 3.0</div>`)[0];
+                popup_f74d344323bb836757b3ee6872d10931.setContent(html_8dcdabcfe1bb8a9b2f256dcdd65f1548);
+            
+        
+
+        circle_marker_f00de55054d5d994413f0892a8f80a77.bindPopup(popup_f74d344323bb836757b3ee6872d10931)
+        ;
+
+        
+    
+    
+            var circle_marker_d08f98295535d0548832f18c61640197 = L.circleMarker(
+                [67.5066637, 64.0649056],
+                {"bubblingMouseEvents": true, "color": "#FF0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FF0000", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(map_839b29c84c734f9f3abbe18d9bfb4d04);
+        
+    
+        var popup_ea050255c1c3805c0c44a52a4c90f5dd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b9b2c8b7659e2675a377931b4e321fb3 = $(`<div id="html_b9b2c8b7659e2675a377931b4e321fb3" style="width: 100.0%; height: 100.0%;">Воркута Кол-во организаций: 1 Средний рейтинг: 4.0</div>`)[0];
+                popup_ea050255c1c3805c0c44a52a4c90f5dd.setContent(html_b9b2c8b7659e2675a377931b4e321fb3);
+            
+        
+
+        circle_marker_d08f98295535d0548832f18c61640197.bindPopup(popup_ea050255c1c3805c0c44a52a4c90f5dd)
+        ;
+
+        
+    
+    
+        var popup_386434fb23bc05ee1cebaf38da02ab57 = L.popup({"maxWidth": 200});
+
+        
+            
+                var html_48fd7f2f215e2f02ffa18a8bb5253def = $(`<div id="html_48fd7f2f215e2f02ffa18a8bb5253def" style="width: 100.0%; height: 100.0%;">Воркута Кол-во организаций: 1 Средний рейтинг: 4.0</div>`)[0];
+                popup_386434fb23bc05ee1cebaf38da02ab57.setContent(html_48fd7f2f215e2f02ffa18a8bb5253def);
+            
+        
+
+        circle_marker_d08f98295535d0548832f18c61640197.bindPopup(popup_386434fb23bc05ee1cebaf38da02ab57)
+        ;
+
+        
+    
+    
+            var circle_marker_931b510bfbc153f850da991a00aa6acd = L.circleMarker(
+                [60.7302934, 28.6885727],
+                {"bubblingMouseEvents": true, "color": "#FF0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FF0000", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(map_839b29c84c734f9f3abbe18d9bfb4d04);
+        
+    
+        var popup_aa266c930a68daf6fed9bf75a039b6e9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7de320139f395a41347abd3af0065a2e = $(`<div id="html_7de320139f395a41347abd3af0065a2e" style="width: 100.0%; height: 100.0%;">Выборг Кол-во организаций: 1 Средний рейтинг: 5.0</div>`)[0];
+                popup_aa266c930a68daf6fed9bf75a039b6e9.setContent(html_7de320139f395a41347abd3af0065a2e);
+            
+        
+
+        circle_marker_931b510bfbc153f850da991a00aa6acd.bindPopup(popup_aa266c930a68daf6fed9bf75a039b6e9)
+        ;
+
+        
+    
+    
+        var popup_b37235d9a0861c948680fbd718f3609e = L.popup({"maxWidth": 200});
+
+        
+            
+                var html_e02df00754293005297f95f9802e1df5 = $(`<div id="html_e02df00754293005297f95f9802e1df5" style="width: 100.0%; height: 100.0%;">Выборг Кол-во организаций: 1 Средний рейтинг: 5.0</div>`)[0];
+                popup_b37235d9a0861c948680fbd718f3609e.setContent(html_e02df00754293005297f95f9802e1df5);
+            
+        
+
+        circle_marker_931b510bfbc153f850da991a00aa6acd.bindPopup(popup_b37235d9a0861c948680fbd718f3609e)
+        ;
+
+        
+    
+    
+            var circle_marker_e62aca0575040f3a1b8d2c947af87e1c = L.circleMarker(
+                [42.058361000000005, 48.28980409966985],
+                {"bubblingMouseEvents": true, "color": "#FF0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FF0000", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(map_839b29c84c734f9f3abbe18d9bfb4d04);
+        
+    
+        var popup_63d90f410d4f9789e51cb8e51160f739 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_498091524378f587d5e4da3460fa286a = $(`<div id="html_498091524378f587d5e4da3460fa286a" style="width: 100.0%; height: 100.0%;">Дербент Кол-во организаций: 1 Средний рейтинг: 4.0</div>`)[0];
+                popup_63d90f410d4f9789e51cb8e51160f739.setContent(html_498091524378f587d5e4da3460fa286a);
+            
+        
+
+        circle_marker_e62aca0575040f3a1b8d2c947af87e1c.bindPopup(popup_63d90f410d4f9789e51cb8e51160f739)
+        ;
+
+        
+    
+    
+        var popup_81e7d3473ec2ba6912eedc962f676fb9 = L.popup({"maxWidth": 200});
+
+        
+            
+                var html_1dd1aa2681431f064f4d87d290601268 = $(`<div id="html_1dd1aa2681431f064f4d87d290601268" style="width: 100.0%; height: 100.0%;">Дербент Кол-во организаций: 1 Средний рейтинг: 4.0</div>`)[0];
+                popup_81e7d3473ec2ba6912eedc962f676fb9.setContent(html_1dd1aa2681431f064f4d87d290601268);
+            
+        
+
+        circle_marker_e62aca0575040f3a1b8d2c947af87e1c.bindPopup(popup_81e7d3473ec2ba6912eedc962f676fb9)
+        ;
+
+        
+    
+    
+            var circle_marker_2a3cc10537c4b121247fcb8388f83290 = L.circleMarker(
+                [56.7951069, 60.4993583],
+                {"bubblingMouseEvents": true, "color": "#FF0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FF0000", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(map_839b29c84c734f9f3abbe18d9bfb4d04);
+        
+    
+        var popup_498245cb44f95e589859860f8ef2787d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6a3076f0de8ed8c93fa7a8756e160080 = $(`<div id="html_6a3076f0de8ed8c93fa7a8756e160080" style="width: 100.0%; height: 100.0%;">Екатеринбург Кол-во организаций: 1 Средний рейтинг: 1.0</div>`)[0];
+                popup_498245cb44f95e589859860f8ef2787d.setContent(html_6a3076f0de8ed8c93fa7a8756e160080);
+            
+        
+
+        circle_marker_2a3cc10537c4b121247fcb8388f83290.bindPopup(popup_498245cb44f95e589859860f8ef2787d)
+        ;
+
+        
+    
+    
+        var popup_dc45398485ff0c6bed33e9ff5acd6cc1 = L.popup({"maxWidth": 200});
+
+        
+            
+                var html_04a9a78190e6a7d0a458fe9435f2f29c = $(`<div id="html_04a9a78190e6a7d0a458fe9435f2f29c" style="width: 100.0%; height: 100.0%;">Екатеринбург Кол-во организаций: 1 Средний рейтинг: 1.0</div>`)[0];
+                popup_dc45398485ff0c6bed33e9ff5acd6cc1.setContent(html_04a9a78190e6a7d0a458fe9435f2f29c);
+            
+        
+
+        circle_marker_2a3cc10537c4b121247fcb8388f83290.bindPopup(popup_dc45398485ff0c6bed33e9ff5acd6cc1)
+        ;
+
+        
+    
+    
+            var circle_marker_3b5970e366d557856a23e5ae9ea3a139 = L.circleMarker(
+                [56.973471849999996, 40.9521484],
+                {"bubblingMouseEvents": true, "color": "#FF0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FF0000", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(map_839b29c84c734f9f3abbe18d9bfb4d04);
+        
+    
+        var popup_4b2694c266dd40b807b89b0aeae2717b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9fcf4de68690532fa7bf0241da210766 = $(`<div id="html_9fcf4de68690532fa7bf0241da210766" style="width: 100.0%; height: 100.0%;">Иваново Кол-во организаций: 1 Средний рейтинг: 1.0</div>`)[0];
+                popup_4b2694c266dd40b807b89b0aeae2717b.setContent(html_9fcf4de68690532fa7bf0241da210766);
+            
+        
+
+        circle_marker_3b5970e366d557856a23e5ae9ea3a139.bindPopup(popup_4b2694c266dd40b807b89b0aeae2717b)
+        ;
+
+        
+    
+    
+        var popup_3afb91bd7c56f81b4e8a71374532daa3 = L.popup({"maxWidth": 200});
+
+        
+            
+                var html_65f6b9ee216e0240516bac6d27d89df3 = $(`<div id="html_65f6b9ee216e0240516bac6d27d89df3" style="width: 100.0%; height: 100.0%;">Иваново Кол-во организаций: 1 Средний рейтинг: 1.0</div>`)[0];
+                popup_3afb91bd7c56f81b4e8a71374532daa3.setContent(html_65f6b9ee216e0240516bac6d27d89df3);
+            
+        
+
+        circle_marker_3b5970e366d557856a23e5ae9ea3a139.bindPopup(popup_3afb91bd7c56f81b4e8a71374532daa3)
+        ;
+
+        
+    
+    
+            var circle_marker_f7f865ecff0b4c9dee24ebc194ed85e1 = L.circleMarker(
+                [55.780841762499996, 49.15237393448376],
+                {"bubblingMouseEvents": true, "color": "#FF0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FF0000", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_839b29c84c734f9f3abbe18d9bfb4d04);
+        
+    
+        var popup_e349ce25419929c222165a30ef0a9928 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_12a2cec7d436d54f87498d7467ac37d5 = $(`<div id="html_12a2cec7d436d54f87498d7467ac37d5" style="width: 100.0%; height: 100.0%;">Казань Кол-во организаций: 4 Средний рейтинг: 4.5</div>`)[0];
+                popup_e349ce25419929c222165a30ef0a9928.setContent(html_12a2cec7d436d54f87498d7467ac37d5);
+            
+        
+
+        circle_marker_f7f865ecff0b4c9dee24ebc194ed85e1.bindPopup(popup_e349ce25419929c222165a30ef0a9928)
+        ;
+
+        
+    
+    
+        var popup_3d9984c05d3279e389632f44eef2935c = L.popup({"maxWidth": 200});
+
+        
+            
+                var html_02cc962290be71832ce3fff3252c1588 = $(`<div id="html_02cc962290be71832ce3fff3252c1588" style="width: 100.0%; height: 100.0%;">Казань Кол-во организаций: 4 Средний рейтинг: 4.5</div>`)[0];
+                popup_3d9984c05d3279e389632f44eef2935c.setContent(html_02cc962290be71832ce3fff3252c1588);
+            
+        
+
+        circle_marker_f7f865ecff0b4c9dee24ebc194ed85e1.bindPopup(popup_3d9984c05d3279e389632f44eef2935c)
+        ;
+
+        
+    
+    
+            var circle_marker_07064f6e990ccc1919f2914f62d281e4 = L.circleMarker(
+                [45.035049400000005, 39.092724396232555],
+                {"bubblingMouseEvents": true, "color": "#FF0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FF0000", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(map_839b29c84c734f9f3abbe18d9bfb4d04);
+        
+    
+        var popup_e6c9ddec3b0c17bab63150d9aec22191 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_51b6b6c518d6e9a009e700e776c8b62c = $(`<div id="html_51b6b6c518d6e9a009e700e776c8b62c" style="width: 100.0%; height: 100.0%;">Краснодар Кол-во организаций: 1 Средний рейтинг: 5.0</div>`)[0];
+                popup_e6c9ddec3b0c17bab63150d9aec22191.setContent(html_51b6b6c518d6e9a009e700e776c8b62c);
+            
+        
+
+        circle_marker_07064f6e990ccc1919f2914f62d281e4.bindPopup(popup_e6c9ddec3b0c17bab63150d9aec22191)
+        ;
+
+        
+    
+    
+        var popup_d6c452a98944df3d4448391659752626 = L.popup({"maxWidth": 200});
+
+        
+            
+                var html_5e79fd36a052b876d216ee9320de9dda = $(`<div id="html_5e79fd36a052b876d216ee9320de9dda" style="width: 100.0%; height: 100.0%;">Краснодар Кол-во организаций: 1 Средний рейтинг: 5.0</div>`)[0];
+                popup_d6c452a98944df3d4448391659752626.setContent(html_5e79fd36a052b876d216ee9320de9dda);
+            
+        
+
+        circle_marker_07064f6e990ccc1919f2914f62d281e4.bindPopup(popup_d6c452a98944df3d4448391659752626)
+        ;
+
+        
+    
+    
+            var circle_marker_b65c286400b62134d5abc0380b65777c = L.circleMarker(
+                [56.0374949, 92.9206127],
+                {"bubblingMouseEvents": true, "color": "#FF0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FF0000", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(map_839b29c84c734f9f3abbe18d9bfb4d04);
+        
+    
+        var popup_0e347ea4e9433b835eee25182b542b7e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_20eb75c967d20c572885f38ecec158d0 = $(`<div id="html_20eb75c967d20c572885f38ecec158d0" style="width: 100.0%; height: 100.0%;">Красноярск Кол-во организаций: 1 Средний рейтинг: 5.0</div>`)[0];
+                popup_0e347ea4e9433b835eee25182b542b7e.setContent(html_20eb75c967d20c572885f38ecec158d0);
+            
+        
+
+        circle_marker_b65c286400b62134d5abc0380b65777c.bindPopup(popup_0e347ea4e9433b835eee25182b542b7e)
+        ;
+
+        
+    
+    
+        var popup_9f66fb94193f61d84556969489ce03bd = L.popup({"maxWidth": 200});
+
+        
+            
+                var html_cb3c000f14c81949d0e52c32eb4d3dec = $(`<div id="html_cb3c000f14c81949d0e52c32eb4d3dec" style="width: 100.0%; height: 100.0%;">Красноярск Кол-во организаций: 1 Средний рейтинг: 5.0</div>`)[0];
+                popup_9f66fb94193f61d84556969489ce03bd.setContent(html_cb3c000f14c81949d0e52c32eb4d3dec);
+            
+        
+
+        circle_marker_b65c286400b62134d5abc0380b65777c.bindPopup(popup_9f66fb94193f61d84556969489ce03bd)
+        ;
+
+        
+    
+    
+            var circle_marker_86ff7ac9a949624991b282864fc31c96 = L.circleMarker(
+                [52.612959849999996, 39.5738002588105],
+                {"bubblingMouseEvents": true, "color": "#FF0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FF0000", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(map_839b29c84c734f9f3abbe18d9bfb4d04);
+        
+    
+        var popup_54dc4ffbf5449e6f5935943e7fd75e57 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_88564c20e69b4da8e09c4ff0f53f7403 = $(`<div id="html_88564c20e69b4da8e09c4ff0f53f7403" style="width: 100.0%; height: 100.0%;">Липецк Кол-во организаций: 1 Средний рейтинг: 5.0</div>`)[0];
+                popup_54dc4ffbf5449e6f5935943e7fd75e57.setContent(html_88564c20e69b4da8e09c4ff0f53f7403);
+            
+        
+
+        circle_marker_86ff7ac9a949624991b282864fc31c96.bindPopup(popup_54dc4ffbf5449e6f5935943e7fd75e57)
+        ;
+
+        
+    
+    
+        var popup_294d7366af43df8aaad823e351a0d454 = L.popup({"maxWidth": 200});
+
+        
+            
+                var html_cbc2559aa5cc14d399fdcfae017bbe5a = $(`<div id="html_cbc2559aa5cc14d399fdcfae017bbe5a" style="width: 100.0%; height: 100.0%;">Липецк Кол-во организаций: 1 Средний рейтинг: 5.0</div>`)[0];
+                popup_294d7366af43df8aaad823e351a0d454.setContent(html_cbc2559aa5cc14d399fdcfae017bbe5a);
+            
+        
+
+        circle_marker_86ff7ac9a949624991b282864fc31c96.bindPopup(popup_294d7366af43df8aaad823e351a0d454)
+        ;
+
+        
+    
+    
+            var circle_marker_8c575af2996f804d32f60cff086cd03f = L.circleMarker(
+                [53.381633750000006, 58.99250034777693],
+                {"bubblingMouseEvents": true, "color": "#FF0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FF0000", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(map_839b29c84c734f9f3abbe18d9bfb4d04);
+        
+    
+        var popup_5e9a6fbe7812cbac1d8f2f1c785245a7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_673e8e2e04b391e9aea88ed84e098584 = $(`<div id="html_673e8e2e04b391e9aea88ed84e098584" style="width: 100.0%; height: 100.0%;">Магнитогорск Кол-во организаций: 1 Средний рейтинг: 5.0</div>`)[0];
+                popup_5e9a6fbe7812cbac1d8f2f1c785245a7.setContent(html_673e8e2e04b391e9aea88ed84e098584);
+            
+        
+
+        circle_marker_8c575af2996f804d32f60cff086cd03f.bindPopup(popup_5e9a6fbe7812cbac1d8f2f1c785245a7)
+        ;
+
+        
+    
+    
+        var popup_69eac8dc0ba8e07c6bacdc2e035e1db0 = L.popup({"maxWidth": 200});
+
+        
+            
+                var html_b759aa47adaa67486a8ae6f517c6a6ee = $(`<div id="html_b759aa47adaa67486a8ae6f517c6a6ee" style="width: 100.0%; height: 100.0%;">Магнитогорск Кол-во организаций: 1 Средний рейтинг: 5.0</div>`)[0];
+                popup_69eac8dc0ba8e07c6bacdc2e035e1db0.setContent(html_b759aa47adaa67486a8ae6f517c6a6ee);
+            
+        
+
+        circle_marker_8c575af2996f804d32f60cff086cd03f.bindPopup(popup_69eac8dc0ba8e07c6bacdc2e035e1db0)
+        ;
+
+        
+    
+    
+            var circle_marker_6e7ae2d22f961a462d0ff71cdaff93e3 = L.circleMarker(
+                [55.75355806, 37.65314382720393],
+                {"bubblingMouseEvents": true, "color": "#FF0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FF0000", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_839b29c84c734f9f3abbe18d9bfb4d04);
+        
+    
+        var popup_f50e85ca4f78b12d9320d177a608f510 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_780f82167748d4448acd70b1c64b6f9e = $(`<div id="html_780f82167748d4448acd70b1c64b6f9e" style="width: 100.0%; height: 100.0%;">Москва Кол-во организаций: 10 Средний рейтинг: 5.0</div>`)[0];
+                popup_f50e85ca4f78b12d9320d177a608f510.setContent(html_780f82167748d4448acd70b1c64b6f9e);
+            
+        
+
+        circle_marker_6e7ae2d22f961a462d0ff71cdaff93e3.bindPopup(popup_f50e85ca4f78b12d9320d177a608f510)
+        ;
+
+        
+    
+    
+        var popup_484bc1c25ec88c9cba81a04ede46ea17 = L.popup({"maxWidth": 200});
+
+        
+            
+                var html_8624c97fa6ee28b3479642133e42687f = $(`<div id="html_8624c97fa6ee28b3479642133e42687f" style="width: 100.0%; height: 100.0%;">Москва Кол-во организаций: 10 Средний рейтинг: 5.0</div>`)[0];
+                popup_484bc1c25ec88c9cba81a04ede46ea17.setContent(html_8624c97fa6ee28b3479642133e42687f);
+            
+        
+
+        circle_marker_6e7ae2d22f961a462d0ff71cdaff93e3.bindPopup(popup_484bc1c25ec88c9cba81a04ede46ea17)
+        ;
+
+        
+    
+    
+            var circle_marker_2a090b13703b0b3f9572ce780e510656 = L.circleMarker(
+                [56.28687981666667, 43.990209887273295],
+                {"bubblingMouseEvents": true, "color": "#FF0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FF0000", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_839b29c84c734f9f3abbe18d9bfb4d04);
+        
+    
+        var popup_3d8d38b45ddecf0b36cf846c8a616055 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_29ff0f3194aa014e866ae0ed5585a04e = $(`<div id="html_29ff0f3194aa014e866ae0ed5585a04e" style="width: 100.0%; height: 100.0%;">Нижний Новгород Кол-во организаций: 3 Средний рейтинг: 2.3</div>`)[0];
+                popup_3d8d38b45ddecf0b36cf846c8a616055.setContent(html_29ff0f3194aa014e866ae0ed5585a04e);
+            
+        
+
+        circle_marker_2a090b13703b0b3f9572ce780e510656.bindPopup(popup_3d8d38b45ddecf0b36cf846c8a616055)
+        ;
+
+        
+    
+    
+        var popup_7bd753ffa3eba65f10a17a542dbde615 = L.popup({"maxWidth": 200});
+
+        
+            
+                var html_0283f8a5e280320618c49c289f28cc7a = $(`<div id="html_0283f8a5e280320618c49c289f28cc7a" style="width: 100.0%; height: 100.0%;">Нижний Новгород Кол-во организаций: 3 Средний рейтинг: 2.3</div>`)[0];
+                popup_7bd753ffa3eba65f10a17a542dbde615.setContent(html_0283f8a5e280320618c49c289f28cc7a);
+            
+        
+
+        circle_marker_2a090b13703b0b3f9572ce780e510656.bindPopup(popup_7bd753ffa3eba65f10a17a542dbde615)
+        ;
+
+        
+    
+    
+            var circle_marker_1e7a45bbf5797b28692884c91a534280 = L.circleMarker(
+                [55.0540384, 82.8935757],
+                {"bubblingMouseEvents": true, "color": "#FF0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FF0000", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(map_839b29c84c734f9f3abbe18d9bfb4d04);
+        
+    
+        var popup_99a6c582675412f20196dacbb41048b4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bde3d258dfe7f47fbf9a0f80ea417887 = $(`<div id="html_bde3d258dfe7f47fbf9a0f80ea417887" style="width: 100.0%; height: 100.0%;">Новосибирск Кол-во организаций: 1 Средний рейтинг: 3.0</div>`)[0];
+                popup_99a6c582675412f20196dacbb41048b4.setContent(html_bde3d258dfe7f47fbf9a0f80ea417887);
+            
+        
+
+        circle_marker_1e7a45bbf5797b28692884c91a534280.bindPopup(popup_99a6c582675412f20196dacbb41048b4)
+        ;
+
+        
+    
+    
+        var popup_ffb595fa9e5e931bc88bdcdc33cc9c84 = L.popup({"maxWidth": 200});
+
+        
+            
+                var html_03ffd5c35179bc083dbbdc52672eef44 = $(`<div id="html_03ffd5c35179bc083dbbdc52672eef44" style="width: 100.0%; height: 100.0%;">Новосибирск Кол-во организаций: 1 Средний рейтинг: 3.0</div>`)[0];
+                popup_ffb595fa9e5e931bc88bdcdc33cc9c84.setContent(html_03ffd5c35179bc083dbbdc52672eef44);
+            
+        
+
+        circle_marker_1e7a45bbf5797b28692884c91a534280.bindPopup(popup_ffb595fa9e5e931bc88bdcdc33cc9c84)
+        ;
+
+        
+    
+    
+            var circle_marker_3f542ef91dac93a8e5d93c80c1c244bc = L.circleMarker(
+                [66.0770642, 76.62885150096264],
+                {"bubblingMouseEvents": true, "color": "#FF0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FF0000", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(map_839b29c84c734f9f3abbe18d9bfb4d04);
+        
+    
+        var popup_b60a44e2fcd39f23d53177f2b3b26e69 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cd76a140e0145e94caffa2bf96c96656 = $(`<div id="html_cd76a140e0145e94caffa2bf96c96656" style="width: 100.0%; height: 100.0%;">Новый Уренгой Кол-во организаций: 1 Средний рейтинг: 5.0</div>`)[0];
+                popup_b60a44e2fcd39f23d53177f2b3b26e69.setContent(html_cd76a140e0145e94caffa2bf96c96656);
+            
+        
+
+        circle_marker_3f542ef91dac93a8e5d93c80c1c244bc.bindPopup(popup_b60a44e2fcd39f23d53177f2b3b26e69)
+        ;
+
+        
+    
+    
+        var popup_824f488c298abba29b26fb4c82f3d0dd = L.popup({"maxWidth": 200});
+
+        
+            
+                var html_b011d4102341d52e9bd572dfd10e63ed = $(`<div id="html_b011d4102341d52e9bd572dfd10e63ed" style="width: 100.0%; height: 100.0%;">Новый Уренгой Кол-во организаций: 1 Средний рейтинг: 5.0</div>`)[0];
+                popup_824f488c298abba29b26fb4c82f3d0dd.setContent(html_b011d4102341d52e9bd572dfd10e63ed);
+            
+        
+
+        circle_marker_3f542ef91dac93a8e5d93c80c1c244bc.bindPopup(popup_824f488c298abba29b26fb4c82f3d0dd)
+        ;
+
+        
+    
+    
+            var circle_marker_ed2fca6b3633a9f833bcbd4a2f6ec368 = L.circleMarker(
+                [58.0197668, 56.2871468],
+                {"bubblingMouseEvents": true, "color": "#FF0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FF0000", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(map_839b29c84c734f9f3abbe18d9bfb4d04);
+        
+    
+        var popup_c90dc34ab03f0a4176569c74ab714f29 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_116df62b0cb9dd986c3a34e36021db19 = $(`<div id="html_116df62b0cb9dd986c3a34e36021db19" style="width: 100.0%; height: 100.0%;">Пермь Кол-во организаций: 1 Средний рейтинг: 5.0</div>`)[0];
+                popup_c90dc34ab03f0a4176569c74ab714f29.setContent(html_116df62b0cb9dd986c3a34e36021db19);
+            
+        
+
+        circle_marker_ed2fca6b3633a9f833bcbd4a2f6ec368.bindPopup(popup_c90dc34ab03f0a4176569c74ab714f29)
+        ;
+
+        
+    
+    
+        var popup_3792722c3d0a60a50ae47411b343b11a = L.popup({"maxWidth": 200});
+
+        
+            
+                var html_9863589020e2fbbb1bf15334c49ef2cf = $(`<div id="html_9863589020e2fbbb1bf15334c49ef2cf" style="width: 100.0%; height: 100.0%;">Пермь Кол-во организаций: 1 Средний рейтинг: 5.0</div>`)[0];
+                popup_3792722c3d0a60a50ae47411b343b11a.setContent(html_9863589020e2fbbb1bf15334c49ef2cf);
+            
+        
+
+        circle_marker_ed2fca6b3633a9f833bcbd4a2f6ec368.bindPopup(popup_3792722c3d0a60a50ae47411b343b11a)
+        ;
+
+        
+    
+    
+            var circle_marker_2692bd3a447e2a2c8c8021d221aa6b82 = L.circleMarker(
+                [47.2364024, 39.812914376626445],
+                {"bubblingMouseEvents": true, "color": "#FF0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FF0000", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(map_839b29c84c734f9f3abbe18d9bfb4d04);
+        
+    
+        var popup_b84c668d05bb6b98a2b097bff712cf42 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ead59da02d2f138482e186ba0bc2b630 = $(`<div id="html_ead59da02d2f138482e186ba0bc2b630" style="width: 100.0%; height: 100.0%;">Ростов-на-Дону Кол-во организаций: 1 Средний рейтинг: 5.0</div>`)[0];
+                popup_b84c668d05bb6b98a2b097bff712cf42.setContent(html_ead59da02d2f138482e186ba0bc2b630);
+            
+        
+
+        circle_marker_2692bd3a447e2a2c8c8021d221aa6b82.bindPopup(popup_b84c668d05bb6b98a2b097bff712cf42)
+        ;
+
+        
+    
+    
+        var popup_9bc90dc7d22e716d5574967ce46cd5e5 = L.popup({"maxWidth": 200});
+
+        
+            
+                var html_bceaa4277cad1d3b251f814f2a7c3e78 = $(`<div id="html_bceaa4277cad1d3b251f814f2a7c3e78" style="width: 100.0%; height: 100.0%;">Ростов-на-Дону Кол-во организаций: 1 Средний рейтинг: 5.0</div>`)[0];
+                popup_9bc90dc7d22e716d5574967ce46cd5e5.setContent(html_bceaa4277cad1d3b251f814f2a7c3e78);
+            
+        
+
+        circle_marker_2692bd3a447e2a2c8c8021d221aa6b82.bindPopup(popup_9bc90dc7d22e716d5574967ce46cd5e5)
+        ;
+
+        
+    
+    
+            var circle_marker_b3997f03219b0906675a45db0dc0aff3 = L.circleMarker(
+                [53.209323775, 50.19494609267687],
+                {"bubblingMouseEvents": true, "color": "#FF0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FF0000", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2, "stroke": true, "weight": 3}
+            ).addTo(map_839b29c84c734f9f3abbe18d9bfb4d04);
+        
+    
+        var popup_fa226ccc18c947fb4653ecbb930498fb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d27ada04969f3f4a21a627d3313d331a = $(`<div id="html_d27ada04969f3f4a21a627d3313d331a" style="width: 100.0%; height: 100.0%;">Самара Кол-во организаций: 2 Средний рейтинг: 3.5</div>`)[0];
+                popup_fa226ccc18c947fb4653ecbb930498fb.setContent(html_d27ada04969f3f4a21a627d3313d331a);
+            
+        
+
+        circle_marker_b3997f03219b0906675a45db0dc0aff3.bindPopup(popup_fa226ccc18c947fb4653ecbb930498fb)
+        ;
+
+        
+    
+    
+        var popup_25b263bd845e29a9fba6668bd481a532 = L.popup({"maxWidth": 200});
+
+        
+            
+                var html_7f1d3d2e9d3199016f1d172a736c966f = $(`<div id="html_7f1d3d2e9d3199016f1d172a736c966f" style="width: 100.0%; height: 100.0%;">Самара Кол-во организаций: 2 Средний рейтинг: 3.5</div>`)[0];
+                popup_25b263bd845e29a9fba6668bd481a532.setContent(html_7f1d3d2e9d3199016f1d172a736c966f);
+            
+        
+
+        circle_marker_b3997f03219b0906675a45db0dc0aff3.bindPopup(popup_25b263bd845e29a9fba6668bd481a532)
+        ;
+
+        
+    
+    
+            var circle_marker_1f3ae518e3c0f6cd822779cec61e829d = L.circleMarker(
+                [59.908033366666665, 30.337664399999998],
+                {"bubblingMouseEvents": true, "color": "#FF0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FF0000", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_839b29c84c734f9f3abbe18d9bfb4d04);
+        
+    
+        var popup_44b3be307681d51d48536a8bb03f9719 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_29690398c6f6dbb348fca5c914771a3c = $(`<div id="html_29690398c6f6dbb348fca5c914771a3c" style="width: 100.0%; height: 100.0%;">Санкт-Петербург Кол-во организаций: 3 Средний рейтинг: 4.7</div>`)[0];
+                popup_44b3be307681d51d48536a8bb03f9719.setContent(html_29690398c6f6dbb348fca5c914771a3c);
+            
+        
+
+        circle_marker_1f3ae518e3c0f6cd822779cec61e829d.bindPopup(popup_44b3be307681d51d48536a8bb03f9719)
+        ;
+
+        
+    
+    
+        var popup_8566a0ce7d2ff5993724bc5170fb2a66 = L.popup({"maxWidth": 200});
+
+        
+            
+                var html_aad60023a6b659860b5ec95fe0d9e11a = $(`<div id="html_aad60023a6b659860b5ec95fe0d9e11a" style="width: 100.0%; height: 100.0%;">Санкт-Петербург Кол-во организаций: 3 Средний рейтинг: 4.7</div>`)[0];
+                popup_8566a0ce7d2ff5993724bc5170fb2a66.setContent(html_aad60023a6b659860b5ec95fe0d9e11a);
+            
+        
+
+        circle_marker_1f3ae518e3c0f6cd822779cec61e829d.bindPopup(popup_8566a0ce7d2ff5993724bc5170fb2a66)
+        ;
+
+        
+    
+    
+            var circle_marker_a6c25033016b7847d16cd1633de1a863 = L.circleMarker(
+                [51.8445424, 107.57093186903052],
+                {"bubblingMouseEvents": true, "color": "#FF0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FF0000", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(map_839b29c84c734f9f3abbe18d9bfb4d04);
+        
+    
+        var popup_067f2120f337cc56cf7cf1abe6856d2f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2c68c0c8ad8f17f48a6ef1503e3fbf6c = $(`<div id="html_2c68c0c8ad8f17f48a6ef1503e3fbf6c" style="width: 100.0%; height: 100.0%;">Улан-Удэ Кол-во организаций: 1 Средний рейтинг: 1.0</div>`)[0];
+                popup_067f2120f337cc56cf7cf1abe6856d2f.setContent(html_2c68c0c8ad8f17f48a6ef1503e3fbf6c);
+            
+        
+
+        circle_marker_a6c25033016b7847d16cd1633de1a863.bindPopup(popup_067f2120f337cc56cf7cf1abe6856d2f)
+        ;
+
+        
+    
+    
+        var popup_1987a4bf7a268a1629580831102142d0 = L.popup({"maxWidth": 200});
+
+        
+            
+                var html_f6ea9e26000bbb8da3b13f87809d8446 = $(`<div id="html_f6ea9e26000bbb8da3b13f87809d8446" style="width: 100.0%; height: 100.0%;">Улан-Удэ Кол-во организаций: 1 Средний рейтинг: 1.0</div>`)[0];
+                popup_1987a4bf7a268a1629580831102142d0.setContent(html_f6ea9e26000bbb8da3b13f87809d8446);
+            
+        
+
+        circle_marker_a6c25033016b7847d16cd1633de1a863.bindPopup(popup_1987a4bf7a268a1629580831102142d0)
+        ;
+
+        
+    
+    
+            var circle_marker_d109a2209587090d40ec9e0a7988a808 = L.circleMarker(
+                [54.7628175, 56.02900489820169],
+                {"bubblingMouseEvents": true, "color": "#FF0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FF0000", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2, "stroke": true, "weight": 3}
+            ).addTo(map_839b29c84c734f9f3abbe18d9bfb4d04);
+        
+    
+        var popup_0af5adeef7551a7b622e93696773adc9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a0121d7d9d1ed3768a1d83f8c9135527 = $(`<div id="html_a0121d7d9d1ed3768a1d83f8c9135527" style="width: 100.0%; height: 100.0%;">Уфа Кол-во организаций: 2 Средний рейтинг: 5.0</div>`)[0];
+                popup_0af5adeef7551a7b622e93696773adc9.setContent(html_a0121d7d9d1ed3768a1d83f8c9135527);
+            
+        
+
+        circle_marker_d109a2209587090d40ec9e0a7988a808.bindPopup(popup_0af5adeef7551a7b622e93696773adc9)
+        ;
+
+        
+    
+    
+        var popup_6d3cb3e2cf02cbc0bff04baa8bb65733 = L.popup({"maxWidth": 200});
+
+        
+            
+                var html_a6207df3c02e9fb7c3c5a606e685e827 = $(`<div id="html_a6207df3c02e9fb7c3c5a606e685e827" style="width: 100.0%; height: 100.0%;">Уфа Кол-во организаций: 2 Средний рейтинг: 5.0</div>`)[0];
+                popup_6d3cb3e2cf02cbc0bff04baa8bb65733.setContent(html_a6207df3c02e9fb7c3c5a606e685e827);
+            
+        
+
+        circle_marker_d109a2209587090d40ec9e0a7988a808.bindPopup(popup_6d3cb3e2cf02cbc0bff04baa8bb65733)
+        ;
+
+        
+    
+    
+            var circle_marker_9aa09d67786120ad63da5380c37de137 = L.circleMarker(
+                [55.16082555, 61.36667649740424],
+                {"bubblingMouseEvents": true, "color": "#FF0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FF0000", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(map_839b29c84c734f9f3abbe18d9bfb4d04);
+        
+    
+        var popup_86893d500e287ef0f3f16e73f3b0dff6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7f367d6712b95863a015a124d7d7488b = $(`<div id="html_7f367d6712b95863a015a124d7d7488b" style="width: 100.0%; height: 100.0%;">Челябинск Кол-во организаций: 1 Средний рейтинг: 3.0</div>`)[0];
+                popup_86893d500e287ef0f3f16e73f3b0dff6.setContent(html_7f367d6712b95863a015a124d7d7488b);
+            
+        
+
+        circle_marker_9aa09d67786120ad63da5380c37de137.bindPopup(popup_86893d500e287ef0f3f16e73f3b0dff6)
+        ;
+
+        
+    
+    
+        var popup_bd65e3c3c2c5d5ae26f17f9d5d808df7 = L.popup({"maxWidth": 200});
+
+        
+            
+                var html_af7576993f8dc0c74bcd64e13dcef3b8 = $(`<div id="html_af7576993f8dc0c74bcd64e13dcef3b8" style="width: 100.0%; height: 100.0%;">Челябинск Кол-во организаций: 1 Средний рейтинг: 3.0</div>`)[0];
+                popup_bd65e3c3c2c5d5ae26f17f9d5d808df7.setContent(html_af7576993f8dc0c74bcd64e13dcef3b8);
+            
+        
+
+        circle_marker_9aa09d67786120ad63da5380c37de137.bindPopup(popup_bd65e3c3c2c5d5ae26f17f9d5d808df7)
+        ;
+
+        
+    
+    
+            var circle_marker_75eda9c68a7675cf8a3599db9a544634 = L.circleMarker(
+                [54.9632358, 82.9377393],
+                {"bubblingMouseEvents": true, "color": "#FF0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FF0000", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(map_839b29c84c734f9f3abbe18d9bfb4d04);
+        
+    
+        var popup_a3ddff2685656cf23dab57ccbcdfb1c9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f6ac1484f75bb627da508a22119b03c3 = $(`<div id="html_f6ac1484f75bb627da508a22119b03c3" style="width: 100.0%; height: 100.0%;">городской округ Новосибирск Кол-во организаций: 1 Средний рейтинг: 5.0</div>`)[0];
+                popup_a3ddff2685656cf23dab57ccbcdfb1c9.setContent(html_f6ac1484f75bb627da508a22119b03c3);
+            
+        
+
+        circle_marker_75eda9c68a7675cf8a3599db9a544634.bindPopup(popup_a3ddff2685656cf23dab57ccbcdfb1c9)
+        ;
+
+        
+    
+    
+        var popup_3c78ea43bf06c9618095e250a8f559b8 = L.popup({"maxWidth": 200});
+
+        
+            
+                var html_e24dd4ca14e3b6b70ca2ed6d55cbd296 = $(`<div id="html_e24dd4ca14e3b6b70ca2ed6d55cbd296" style="width: 100.0%; height: 100.0%;">городской округ Новосибирск Кол-во организаций: 1 Средний рейтинг: 5.0</div>`)[0];
+                popup_3c78ea43bf06c9618095e250a8f559b8.setContent(html_e24dd4ca14e3b6b70ca2ed6d55cbd296);
+            
+        
+
+        circle_marker_75eda9c68a7675cf8a3599db9a544634.bindPopup(popup_3c78ea43bf06c9618095e250a8f559b8)
+        ;
+
+        
+    
+    
+            var circle_marker_35f8d5e342dca1349c304f3630fcf6d5 = L.circleMarker(
+                [57.61948451666667, 39.87412127009412],
+                {"bubblingMouseEvents": true, "color": "#FF0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FF0000", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_839b29c84c734f9f3abbe18d9bfb4d04);
+        
+    
+        var popup_9abef60c42cfbbffe2423cb8758e6749 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a62e262d1a01056a6fdecd8bfd7ca64f = $(`<div id="html_a62e262d1a01056a6fdecd8bfd7ca64f" style="width: 100.0%; height: 100.0%;">городской округ Ярославль Кол-во организаций: 3 Средний рейтинг: 4.7</div>`)[0];
+                popup_9abef60c42cfbbffe2423cb8758e6749.setContent(html_a62e262d1a01056a6fdecd8bfd7ca64f);
+            
+        
+
+        circle_marker_35f8d5e342dca1349c304f3630fcf6d5.bindPopup(popup_9abef60c42cfbbffe2423cb8758e6749)
+        ;
+
+        
+    
+    
+        var popup_4bb30a9e25b674e5f59b4043b8fe47bc = L.popup({"maxWidth": 200});
+
+        
+            
+                var html_095126928485c474c5db5423623f7c97 = $(`<div id="html_095126928485c474c5db5423623f7c97" style="width: 100.0%; height: 100.0%;">городской округ Ярославль Кол-во организаций: 3 Средний рейтинг: 4.7</div>`)[0];
+                popup_4bb30a9e25b674e5f59b4043b8fe47bc.setContent(html_095126928485c474c5db5423623f7c97);
+            
+        
+
+        circle_marker_35f8d5e342dca1349c304f3630fcf6d5.bindPopup(popup_4bb30a9e25b674e5f59b4043b8fe47bc)
+        ;
+
+        
+    
+</script>
+</html>

@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "maporgs"
+version = "0.1.0"
+description = ""
+authors = ["Basil"]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+jupyterlab = "^4.0.9"
+rich = "^13.7.0"
+geopy = "^2.4.1"
+folium = "^0.15.1"
+gdown = "^4.7.1"
+pandas = "^2.1.4"
+seaborn = "^0.13.0"
+
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.1.8"
+
+[tool.ruff.format]
+quote-style = "double"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
